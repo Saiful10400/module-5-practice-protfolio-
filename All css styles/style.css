@@ -160,7 +160,7 @@ nav{
 }
 
 .about-container p{
-    width: 60%;
+    width: 80%;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -186,4 +186,64 @@ nav{
 .identity-box :nth-child(2){
 
     font-weight: 700;
+}
+
+
+/* what i do ection */
+
+.work{
+    width: 60%;
+    margin: 130px auto;
+    text-align: center;
+}
+
+.work h1{
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+color: #181818;
+}
+
+.work>p{
+    width: 80%;
+    margin: 30px auto;
+    line-height: 30px;
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400;
+}
+
+
+/* scill box section */
+ 
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill-box{
+    padding: 30px;
+    text-align: left;
+    width: 22.5%;
+    box-shadow: 4px 4px 15px rgb(207, 207, 207);
+    border-radius: 5px;
+
+}
+
+.skill-box img{
+    width: 44px;
+    margin: 30px auto;
+}
+
+.skill-box h3{
+    margin-bottom: 20px;
+    font-weight: 700;
+    
+}
+.skill-box p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+
 }
