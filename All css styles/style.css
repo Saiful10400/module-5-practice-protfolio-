@@ -338,3 +338,37 @@ color: #181818;
     display: flex;
     gap: 24px;
 }
+/* footer form style. */
+
+.footer-form{
+    padding-left: 230px;
+}
+.footer-form h1{
+    margin-bottom: 28px;
+}
+
+.footer-form form input[type=email],form input[type=text],form textarea {
+
+    display: block;
+    margin-bottom: 30px;
+    border: transparent;
+    width: 100%;
+    padding: 18px 30px;
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 5px;
+    
+}
+
+.submit-btn{
+    width: 150px;
+    height: 64px;
+    cursor: pointer;
+}
+footer{
+    padding: 130px;
+    background-color: #FFF8F3;
+}
